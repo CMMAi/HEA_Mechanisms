@@ -1,5 +1,7 @@
 # HEA mechanisms
-In this repositiory, we demonstrate the LAMMPS code used in our MD simulations and the snapshot videos for our simulations. An example of an equimolar CoCrFeMnNi HEA system is demoed in this repository. You can generate your preferable input and data files using the code from this repository.
+In this repositiory, we demonstrate the LAMMPS code used in our MD simulations and the snapshot videos for our simulations. An example of an equimolar CoCrFeMnNi HEA system is demoed in this repository. You can generate your preferable input and data files using the code from this repository. 
+
+You can find our simulation code in the src folder. The MEAM potential files were work published by Choi et al. 2018 [[1]](#1).
 
 ## Tensile simulation
 If you wish to run our code, we use the **`lammps-16Mar18`** version of LAMMPS with mpi execution.
@@ -48,3 +50,7 @@ Animation of all our simulation runs are shown in this project. You can find ani
 ![image](https://github.com/CMMAI-KTChen/Defect-evolution-of-HEA/blob/master/pic/legends_PDI.png)
 
 If you have any question about our project, please contact our email address: dchen@ntu.edu.tw
+
+## References
+<a id="1">[1]</a> 
+W.-M. Choi, Y.H. Jo, S.S. Sohn, S. Lee, and B.-J. Lee (2018), "Understanding the physical metallurgy of the CoCrFeMnNi high-entropy alloy: an atomistic simulation study", npj Computational Materials, 4(1), . DOI: 10.1038/s41524-017-0060-9.
