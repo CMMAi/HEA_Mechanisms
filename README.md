@@ -1,9 +1,9 @@
 # HEA mechanisms
-In this repositiory, we demonstrate the LAMMPS code used in our MD simulations and the snapshot videos for our simulations.
+In this repositiory, we demonstrate the LAMMPS code used in our MD simulations and the snapshot videos for our simulations. An example of an equimolar CoCrFeMnNi HEA system is demoed in this repository. You can generate your preferable input and data files using the code from this repository.
 
 ## Tensile simulation
 If you wish to run our code, we use the **`lammps-16Mar18`** version of LAMMPS with mpi execution.
-The **`equimolar.data`** file is our data file, you can also generate your preferable atom configuration. Please note that the simulation box size should be identical and the lattice parameter is 3.595 Angstroms. The data is in [100], [010], [001] axial directions. 
+The **`equimolar.data`** file is our data file, you can also generate your preferable atom configuration. Please note that the simulation box size should be identical and the lattice parameter is 3.595 Angstroms. Our data is in [100], [010], [001] axial directions.
 
 The **`tensile_equimolar.in`** is our input file. The simulation process is as follows:
 1. Energy minimization
