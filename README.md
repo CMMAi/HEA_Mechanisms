@@ -43,7 +43,6 @@ In this simulation, we are interested in the ductile property of the system. So 
 #### Tensile simulation
 In the tensile simulation, we fix the upper and lower 27 angstroms of the model and give them fixed velocity `0.3 Angstom/picosecond` (0.15 upwards and -0.15 downwards). Strain and stress were calculated using the region where the fixed regions were excluded.
 
-
 ## Simulation snapshots
 Animation of all our simulation runs are shown in this project. You can find animations processed using **Common Neighbor Analysis (CNA)** and our self-developed **Planar Defect Identification (PDI)** algorithm via OVITO. In CNA processed videos, atoms with fcc crystal structure is colored green, bcc crystal structure is colored blue and hcp crystal structure is colored red. Amorphous atoms are excluded in all videos. Each animation is recorded till the model rupture or an amorphous necking formed.
 
