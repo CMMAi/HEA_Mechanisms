@@ -48,8 +48,20 @@ Animation of all our simulation runs are shown in this project. You can find ani
 
 ![image](https://github.com/CMMAI-KTChen/Defect-evolution-of-HEA/blob/master/pic/legends_PDI.png)
 
+## Stacking Fault Energy calculation simulation
+The **`SFE_equimolar.in`** is our input file. The simulation process is as follows:
+1. Lattice relaxation
+2. Monte Carlo simulation
+3. Lattice relaxation
+4. Calculate stacking fault energy
+
+#### Calculate stacking fault energy
+In this simulation, the upper block of the simulation box(as a rigid body) is displaced on the lower block along **[11-2] direction** on ***(111) crystalline plane*. 
+
+
+
 If you have any question about our project, please contact our email address: dchen@ntu.edu.tw
 
 ## References
 <a id="1">[1]</a> 
-W.-M. Choi, Y.H. Jo, S.S. Sohn, S. Lee, and B.-J. Lee (2018), "Understanding the physical metallurgy of the CoCrFeMnNi high-entropy alloy: an atomistic simulation study", npj Computational Materials, 4(1), . DOI: 10.1038/s41524-017-0060-9.
+K-T Chen, T-J Wei, G-C Li, M-Y Chen1, Y-S Chen, S-W Chang, H-W Yen, C-S Chen (2021) “Mechanical properties and deformation mechanisms in CoCrFeMnNi high entropy alloys: a molecular dynamics study,” Materials Chemistry and Physics, 271, 124912.
