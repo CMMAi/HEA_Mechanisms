@@ -21,7 +21,7 @@ We use min_style `sd` to initialize the model and `dnax` value of 0.2. This is b
 The atomic stress is also defined in this section.
 
 #### Lattice relaxation
-Since our boundary condition is currently periodic, we here run `isothermal–isobaric ensemble` (NPT) for initial lattice relaxation. This is also the stage we assign velocity to the system, so a random seed is needed for this step. In our simulations, we changed the random seed in the same composition for maximizing our simulation validity (we usually run 4 or 5 times within one composition, using the same data dile and different random seed). We chose a 1.8 darg for the barostat/thermostat, but you can tune to your preference value.
+Since our boundary condition is currently periodic, we here run `isothermal–isobaric ensemble` (NPT) for initial lattice relaxation. This is also the stage we assign velocity to the system, so a random seed is needed for this step. In our simulations, we changed the random seed in the same composition for maximizing our simulation validity (we usually run 4 or 5 times within one composition, using the same data dile and different random seed). We chose a 1.8 drag for the barostat/thermostat, but you can tune to your preference value.
 
 #### Monte Carlo simulation
 The `Monte Carlo` simulation is ultilized here is because we want to simulate the short-range ordering effect and lattice distortion effect of the HEA systems. By minimizing the system energy using Monte Carlo method, we wish the configuration of the system can be more realistic. The simulation steps for swapping is 15000. So if you are performing a composition with one of the elements being set to 0 molar ratio, the swapping steps should be annotated.
