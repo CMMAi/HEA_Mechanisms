@@ -1,5 +1,5 @@
 # Mechanical properties and deformation mechanisms in CoCrFeMnNi high entropy alloys: a molecular dynamics study 
-In this repositiory, we demonstrate the LAMMPS codes used in this paper and the snapshot videos for this simulations. An example of an equimolar CoCrFeMnNi HEA system is demoed in this repository. You can generate your preferable input and data files using the code from this repository. 
+In this repositiory, we demonstrate the LAMMPS codes with an example of an equimolar CoCrFeMnNi HEA system used in this paper and the snapshot videos for this simulations. You can generate your preferable input and data files using the code from this repository. 
 
 You can find more information in our published work K-T Chen et al. 2021 [[1]](#1). The potential files were done by Choi et al. 2018 [[2]](#2).
 
