@@ -1,7 +1,7 @@
 # HEA mechanisms
 In this repositiory, we demonstrate the LAMMPS code used in our MD simulations and the snapshot videos for our simulations. An example of an equimolar CoCrFeMnNi HEA system is demoed in this repository. You can generate your preferable input and data files using the code from this repository. 
 
-You can find more information in our published work[[1]](#1). MEAM potential files were worked by Choi et al. 2018 [[2]](#2).
+You can find more information in our published work K-T Chen et al. 2021 [[1]](#1). MEAM potential files were worked by Choi et al. 2018 [[2]](#2).
 
 ## Tensile simulation
 If you wish to run our code, we use the **`lammps-16Mar18`** version of LAMMPS with mpi execution.
