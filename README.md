@@ -26,7 +26,7 @@ Since our boundary condition is currently periodic, we here run `isothermal–is
 #### Monte Carlo simulation
 The `Monte Carlo` simulation is ultilized here because we want to simulate the short-range ordering effect and lattice distortion effect of the HEA systems. By minimizing the system energy using Monte Carlo method, we wish the configuration of the system can be more realistic. The simulation steps for swapping is 15000. So if you are performing a composition with one of the elements being set to 0 molar ratio, the swapping steps should be annotated.
 
-We experimented swapping multiple atoms within one step, but the result in convergent and the major difference is the simulation time. Also, the swapping steps is not fine tuned so there may be an optimum number for a given atom number. We only chose a reasonable number of steps because it is time consuming.
+We experimented swapping multiple atoms within one step, and the result is in convergent with time being the major controlling variable. Also, the swapping steps is not fine tuned so there may be an optimum number for a given atom number. We only chose a reasonable number of steps because it is time consuming.
 
 ![](https://github.com/CMMAI-KTChen/Defect-evolution-of-HEA/blob/master/pic/MonteCarlo.gif)
 
