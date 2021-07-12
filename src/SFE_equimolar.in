@@ -49,8 +49,7 @@ variable		randomseed equal 2345674
 	pair_style      meam/c
 	pair_coeff      * * library.meam Co Ni Cr Fe Mn CoNiCrFeMn.meam Co Ni Cr Fe Mn
 	
-	
-	
+
 
 
 

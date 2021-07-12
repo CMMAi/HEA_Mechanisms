@@ -62,6 +62,7 @@ In this simulation, the upper block of the simulation box(as a rigid body) is di
 
 If you have any question about our project, please contact our email address: dchen@ntu.edu.tw
 
+
 ## References
 <a id="1">[1]</a> 
 K-T Chen, T-J Wei, G-C Li, M-Y Chen, Y-S Chen, S-W Chang, H-W Yen, C-S Chen (2021) “Mechanical properties and deformation mechanisms in CoCrFeMnNi high entropy alloys: a molecular dynamics study,” Materials Chemistry and Physics, 271, 124912.
