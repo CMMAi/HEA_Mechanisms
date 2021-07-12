@@ -66,6 +66,7 @@ If you have any question about our project, please contact our email address: dc
 ## References
 <a id="1">[1]</a> 
 K-T Chen, T-J Wei, G-C Li, M-Y Chen, Y-S Chen, S-W Chang, H-W Yen, C-S Chen (2021) “Mechanical properties and deformation mechanisms in CoCrFeMnNi high entropy alloys: a molecular dynamics study,” Materials Chemistry and Physics, 271, 124912.
+
 <a id="2">[2]</a> 
 W.-M. Choi, Y.H. Jo, S.S. Sohn, S. Lee, B.-J. Lee, Understanding the physical metallurgy of the CoCrFeMnNi high-entropy alloy: an atomistic simulation study, npj Computational Materials 4(1) (2018).
 
