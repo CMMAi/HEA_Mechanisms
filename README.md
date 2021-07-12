@@ -56,7 +56,7 @@ The **`SFE_equimolar.in`** is our input file. The simulation process is as follo
 4. Calculate stacking fault energy
 
 #### Calculate stacking fault energy
-In this simulation, the upper block of the simulation box(as a rigid body) is displaced on the lower block along **[11-2] direction** on ***(111) crystalline plane***. 
+In this simulation, the upper block of the simulation box(as a rigid body) is displaced on the lower block along **[11-2] direction** on ***(111)*** crystalline plane. 
 
 
 
