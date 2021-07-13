@@ -1,5 +1,5 @@
 # Mechanical properties and deformation mechanisms in CoCrFeMnNi high entropy alloys: a molecular dynamics study 
-In this repositiory, we demonstrate the LAMMPS codes with an example of an equimolar CoCrFeMnNi HEA system used in this paper and the snapshot videos for this simulations. You can generate your preferable input and data files using the code from this repository. 
+In this repositiory, we demonstrate the LAMMPS codes with an example of equimolar CoCrFeMnNi HEA system used in this paper and the snapshot videos for this simulations. You can generate your preferable input and data files using the code from this repository. 
 
 You can find more information in our published work K-T Chen et al. 2021 [[1]](#1). The potential files were done by Choi et al. 2018 [[2]](#2).
 
@@ -66,7 +66,7 @@ Since our boundary condition is currently periodic, we here run `isothermal–is
 The `Monte Carlo` simulation is ultilized here because we want to simulate the short-range ordering effect and lattice distortion effect of the HEA systems. By minimizing the system energy using Monte Carlo method, we wish the configuration of the system can be more realistic. The simulation steps for swapping is 2000. So if you are performing a composition with one of the elements being set to 0 molar ratio, the swapping steps should be annotated.
 
 #### Calculate stacking fault energy
-We calculate the generalized stacking fault energy in 2 stages. The general idea is that dividing the simulation box into 2 blocks as upper block and lower block in **[111]** direction. Then,the upper block of the simulation box(as a rigid body) is displaced on the lower block along **[11-2] direction** on **(111)** crystalline plane. We conduct `displace_atoms` in region `up1` to caculate **USFE, ISFE** at the first stage and conduct `displace_atoms` in region `up2` to caculate **UTFE,ESFE** at the second stage respectively. 
+We calculate the generalized stacking fault energy in 2 stages. The general idea is that dividing the simulation box into 2 blocks as upper block and lower block in **[111]** direction. Then,the upper block of the simulation box(as a rigid body) is displaced on the lower block along **[11-2] direction** on **(111)** crystalline plane. We conduct `displace_atoms` in region `up1` to caculate **USFE, ISFE** at the first stage and conduct `displace_atoms` in region `up2` to caculate **UTFE,ESFE** at the second stage, respectively. 
 
 
 
