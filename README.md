@@ -24,9 +24,9 @@ The atomic stress is also defined in this section.
 Since our boundary condition is currently periodic, we here run `isothermal–isobaric ensemble` (NPT) for initial lattice relaxation. This is also the stage we assign velocity to the system, so a random seed is needed for this step. In our simulations, we changed the random seed in the same composition for maximizing our simulation validity (we usually run 4 or 5 times within one composition, using the same data file and different random seed). We chose a 1.8 drag for the barostat/thermostat, but you can tune to your preference value.
 
 #### Monte Carlo simulation
-The `Monte Carlo` simulation is ultilized here because we want to simulate the short-range ordering effect and lattice distortion effect of the HEA systems. By minimizing the system energy using Monte Carlo method, we wish the configuration of the system can be more realistic. The simulation steps for swapping is 15000. So if you are performing a composition with one of the elements being set to 0 molar ratio, the swapping steps should be annotated.
+The `Monte Carlo` simulation is ultilized here because we want to simulate the short-range ordering effect and lattice distortion effect of the HEA systems. By minimizing the system energy using Monte Carlo method, we wish the configuration of the system can be more realistic. The simulation steps for swapping are 15000. So if you are performing a composition with one of the elements being set to 0 molar ratio, the swapping steps should be annotated.
 
-We experimented swapping multiple atoms within one step, and the result is in convergent with time being the major controlling variable. Also, the swapping steps is not fine tuned so there may be an optimum number for a given atom number. We only chose a reasonable number of steps because it is time consuming.
+We experimented swapping multiple atoms within one step, and the result is in convergent with time being the major controlling variable. Also, the swapping steps are not fine tuned so there may be an optimum number for a given atom number. We only chose a reasonable number of steps because it is time consuming.
 
 ![](https://github.com/CMMAI-KTChen/Defect-evolution-of-HEA/blob/master/pic/MonteCarlo.gif)
 
@@ -44,7 +44,7 @@ In this simulation, we are interested in the ductile property of the system. Aft
 In the tensile simulation, we fix the upper and lower 27 angstroms of the model and give them fixed velocity `0.3 Angstom/picosecond` (0.15 upwards and -0.15 downwards). Strain and stress are calculated using the region where the fixed regions are excluded.
 
 ## Simulation snapshots
-Animation of all our simulation runs are shown in this project. You can find animations processed using **Common Neighbor Analysis (CNA)** and our self-developed **Planar Defect Identification (PDI)** algorithm via OVITO. In CNA processed videos, atoms with fcc crystal structure is colored green, bcc crystal structure is colored blue and hcp crystal structure is colored red. Amorphous atoms are excluded in all videos. Each animation is recorded till the model rupture or an amorphous necking formed.
+Animation of all our simulation runs are shown in this project. You can find animations processed using **Common Neighbor Analysis (CNA)** and our self-developed **Planar Defect Identification (PDI)** algorithm via OVITO. In CNA processed videos, atoms with fcc crystal structure are colored green, bcc crystal structure are colored blue and hcp crystal structure are colored red. Amorphous atoms are excluded in all videos. Each animation is recorded till the model rupture or an amorphous necking formed.
 
 ![image](https://github.com/CMMAI-KTChen/Defect-evolution-of-HEA/blob/master/pic/legends_PDI.png)
 
