@@ -50,7 +50,7 @@ Animation of all our simulation runs are shown in this project. You can find ani
 
 
 ## Stacking Fault Energy calculation simulation
-If you want to calculate the generalized stacking fault energy in LAMMPS, the **`SFE_equimolar.in`** is our input file. The simulation process is as follows:
+If you want to calculate the generalized stacking fault energy in LAMMPS, the **`GSF_calculation.in`** is our input file. The simulation process is as follows:
 1. Generate atoms configuration
 2. Lattice relaxation
 3. Monte Carlo simulation
